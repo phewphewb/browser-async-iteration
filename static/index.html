@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link id="theme-style" href="/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Async Array</h1>
+      <h3>An expamle of async iterable arrays. Pseudo concurrent mode.</h3>
+    </header>
+    <div class="row">
+      <span> Concurrent mode &nbsp; </span>
+      <label class="switch">
+        <input id="conc-mode-switch" type="checkbox" />
+        <span class="slider round"></span>
+      </label>
+      &nbsp;
+      <button id="start-button">Start</button>
+      &nbsp;
+      <input type="text" placeholder="Sart typing while iterating..." />
+    </div>
+    <div class="table row">
+      <div class="col">
+        <span>Iterate Async Array 1</span>
+        <ul class="col" id="left-col"></ul>
+      </div>
+      <div class="col">
+        <span>Iterate Async Array 2</span>
+        <ul class="col" id="right-col"></ul>
+      </div>
+      <div class="col">
+        <span>Set Interval</span>
+        <ul class="col" id="interval-col"></ul>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="./index.js"></script>
+</html>
