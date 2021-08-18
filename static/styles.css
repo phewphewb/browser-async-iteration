@@ -42,6 +42,11 @@ li {
 }
 
 .order {
+  color: darkgray;
+  font-size: small;
+}
+
+.value {
   color: gray;
   font-size: small;
 }
